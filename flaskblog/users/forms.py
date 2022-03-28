@@ -12,7 +12,7 @@ class RegistrationForm(FlaskForm):
 
     # Create a new attribute:
 
-    username = StringField("Username", validators=[DataRequired(), Length(min=2, max=20)])
+    username = StringField("Username", validators=[DataRequired(), Length(min=2, max=50)])
 
     email = StringField("Email", validators=[DataRequired(), Email()])
 
