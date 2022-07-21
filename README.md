@@ -1,4 +1,4 @@
-# flask-capstone
+# LarryU-Blog
 
 To run the project:
 
